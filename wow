@@ -1,3 +1,4 @@
+    //dictionary game
 def group_by_owners(files):
     result = {}
     for file, owner in files.items():  # use files.iteritems() on Python 2.x
@@ -13,4 +14,23 @@ def group_by_owners(files):
     }   
     print(group_by_owners(files))
     
+    
+    
+    //ice cream game
+    class IceCreamMachine:
+    all={}
+    def __init__(self, ingredients, toppings):
+        self.ingredients = ingredients
+        self.toppings = toppings
+
+    def scoops(self):
+        res = []
+        for i in self.ingredients:
+            for j in self.toppings:
+                res.append([i, j])
+        return res
+
+machine = IceCreamMachine(["vanilla", "chocolate"], ["chocolate sauce"])
+print(machine.scoops()) 
+        
     
