@@ -17,3 +17,7 @@ print(sampleList)
 var = "Taylor Swift"
 #print(var[2::-1])
 print(var[2::4])
+
+#another iteration (
+str = "synchronicity"
+print(str[0:2])
