@@ -12,3 +12,8 @@ print(var)
 sampleList = ["Mana", "Larry"]
 sampleList.append("Scott")
 print(sampleList)
+
+#some fun iteration
+var = "Taylor Swift"
+#print(var[2::-1])
+print(var[2::4])
