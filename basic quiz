@@ -1,0 +1,14 @@
+#if no value, only then is it default value
+def calculate(num1, num2 =4):
+    res = num1*num2
+    print(res)
+calculate(5)
+
+#strings can be iterated 
+var = "Mana"*2*3
+print(var)
+
+#append function
+sampleList = ["Mana", "Larry"]
+sampleList.append("Scott")
+print(sampleList)
